@@ -15,16 +15,16 @@ GlobalDir=
 
 {ScenarioPrivateConfig
 Path=
-Author=Èëüÿ
+Author=ÃˆÃ«Ã¼Ã¿
 Subject=
 Description=
 Hosts=1
 Scripts=3
 Groups=3
-Vusers=3
+Vusers=6
 Tranzactions=7
 Rendezvous=0
-Result_file=C:\Users\Èëüÿ\AppData\Local\Temp\res\res.lrr
+Result_file=C:\Users\ÃˆÃ«Ã¼Ã¿\AppData\Local\Temp\res\res.lrr
 ResCleanName=
 ResSymName=
 DEFAULT_NFS_LESS_MODE=1
@@ -152,7 +152,7 @@ VuQuitTO=120
 {HostChief
 
 {localhost
-PLATFORM=Windows 10
+PLATFORM=Windows 10 arm
 IS_REMOTE_LOGIN=0
 REMOTE_LOGIN=
 IS_LOCAL_LOGIN=0
@@ -189,7 +189,7 @@ UiName=Clear
 Type=1
 SubType=Multi+QTWeb
 ScriptType=14
-Path=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Clear\Clear.usr
+Path=C:\Program Files (arm)\Micro Focus\LoadRunner\bin\Clear\Clear.usr
 EmulatedLocation=None
 NVAnalytics=0
 Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1600"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="Yes"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent="1"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nLogFileWrite="0"\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2023/11/14 18:48:40"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1600"\r\nScreenAvailHeight="852"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="UTF-8"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass=""\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="900"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic=uspJvK.545\r\nEncoding="UTF8"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
@@ -231,7 +231,7 @@ UiName=Send_New_Message
 Type=1
 SubType=Multi+QTWeb
 ScriptType=14
-Path=C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Send_New_Message\Send_New_Message.usr
+Path=C:\Program Files (arm)\Micro Focus\LoadRunner\bin\Send_New_Message\Send_New_Message.usr
 EmulatedLocation=None
 NVAnalytics=0
 Config=[WEB]\r\nStartRecordingIsDst="0"\r\nScreenAvailWidth="1920"\r\nUseBrowserAgent="0"\r\nNavigatorBrowserLanguage="ru-RU"\r\nUTF8InputOutput="No"\r\nNavigatorUserLanguage="ru-RU"\r\nRecorderWinCodePage="1251"\r\nUseCustomAgent="1"\r\nLogFileWriteTraceToFile="0"\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nLogFileWrite="0"\r\nSaveSnapshotResources=0\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2023/09/14 11:55:59"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage=""\r\nScreenWidth="1920"\r\nScreenAvailHeight="1040"\r\nBrowserAcceptLanguage="ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"\r\nProxyHTTPSHost=""\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nProxyNoLocal="0"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="ru-RU"\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nUseDataFormatExtensions="FALSE"\r\nProxyBypass="*.local"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nProxyHTTPSPort="443"\r\nMaxConnections="0"\r\nScreenHeight="1080"\r\nCustomUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"\r\n[Log]\r\nMsgClassParameters="0"\r\nMsgClassData="0"\r\nLogOptions="LogBrief"\r\nMsgClassFull="0"\r\nAutoLog=1\r\n[General]\r\nXlBridgeTimeout="120"\r\nDefaultRunLogic="uspagE.539"\r\nEncoding="ANSI"\r\nAutomaticTransactions="1"\r\nautomatic_nested_transactions="1"\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[ThinkTime]\r\nOptions=RECORDED\r\nFactor="1"\r\nLimit="1"\r\nLimitFlag="0"\r\n
@@ -1678,7 +1678,7 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=0
-Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generator’s IP address.
+Description=Displays the number of attempted server connections during each second of the scenario run. A server connection is retried when the initial connection was unauthorized, when proxy authentication is required, when the initial connection was closed by the server, when the initial connection to the server could not be made, or when the server was initially unable to resolve the load generatorÂ’s IP address.
 [33]
 MeasurementsDelimiter=|||
 HelpContext=566
@@ -4652,168 +4652,330 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
 }
 
 {ScenarioSchedulerConfig
-<?xml version="1.0" encoding="utf-16"?>
-<LoadTest>
-  <Schedulers>
-    <CurrentSchedulerId>1</CurrentSchedulerId>
-    <StartMode>
-      <StartModeType>Immediately</StartModeType>
-      <StartModes>
-        <Immediately />
-        <DelayAfterLTStart>0</DelayAfterLTStart>
-        <StartAt>2023-11-25T22:48:15.2409101+03:00</StartAt>
-      </StartModes>
-    </StartMode>
-    <Scheduler ID="1">
-      <Name>Schedule 1</Name>
-      <Manual>
-        <SchedulerType>Groups</SchedulerType>
-        <Global>
-          <Scheduling>
-            <IsDefaultScheduler>true</IsDefaultScheduler>
-            <DynamicScheduling>
-              <RampUp>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>1</Count>
-                  <Interval>15</Interval>
-                </Batch>
-                <TotalVusersNumber>3</TotalVusersNumber>
-              </RampUp>
-              <Duration>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <RunFor>300</RunFor>
-              </Duration>
-              <RampDownAll>
-                <StartCondition>
-                  <PrevAction />
-                </StartCondition>
-                <Batch>
-                  <Count>1</Count>
-                  <Interval>30</Interval>
-                </Batch>
-              </RampDownAll>
-            </DynamicScheduling>
-          </Scheduling>
-        </Global>
-        <Groups>
-          <InitAllBeforeStart>false</InitAllBeforeStart>
-          <GroupScheduler>
-            <GroupName>creat_new_folder</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>true</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>15</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>300</RunFor>
-                </Duration>
-                <RampDownAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>30</Interval>
-                  </Batch>
-                </RampDownAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>send_new_message</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>true</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>15</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>300</RunFor>
-                </Duration>
-                <RampDownAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>30</Interval>
-                  </Batch>
-                </RampDownAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-          <GroupScheduler>
-            <GroupName>clear</GroupName>
-            <StartupMode>
-              <StartAtScenarioBegining />
-            </StartupMode>
-            <Scheduling>
-              <IsDefaultScheduler>true</IsDefaultScheduler>
-              <DynamicScheduling>
-                <RampUp>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>15</Interval>
-                  </Batch>
-                  <TotalVusersNumber>1</TotalVusersNumber>
-                </RampUp>
-                <Duration>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <RunFor>300</RunFor>
-                </Duration>
-                <RampDownAll>
-                  <StartCondition>
-                    <PrevAction />
-                  </StartCondition>
-                  <Batch>
-                    <Count>1</Count>
-                    <Interval>30</Interval>
-                  </Batch>
-                </RampDownAll>
-              </DynamicScheduling>
-            </Scheduling>
-          </GroupScheduler>
-        </Groups>
-      </Manual>
-    </Scheduler>
-  </Schedulers>
+<?xml version="1.0" encoding="utf-16"?>
+
+<LoadTest>
+
+  <Schedulers>
+
+    <CurrentSchedulerId>1</CurrentSchedulerId>
+
+    <StartMode>
+
+      <StartModeType>Immediately</StartModeType>
+
+      <StartModes>
+
+        <Immediately />
+
+        <DelayAfterLTStart>0</DelayAfterLTStart>
+
+        <StartAt>2023-11-25T22:48:15.2409101+03:00</StartAt>
+
+      </StartModes>
+
+    </StartMode>
+
+    <Scheduler ID="1">
+
+      <Name>Schedule 1</Name>
+
+      <Manual>
+
+        <SchedulerType>Groups</SchedulerType>
+
+        <Global>
+
+          <Scheduling>
+
+            <IsDefaultScheduler>true</IsDefaultScheduler>
+
+            <DynamicScheduling>
+
+              <RampUp>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>1</Count>
+
+                  <Interval>15</Interval>
+
+                </Batch>
+
+                <TotalVusersNumber>3</TotalVusersNumber>
+
+              </RampUp>
+
+              <Duration>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <RunFor>300</RunFor>
+
+              </Duration>
+
+              <RampDownAll>
+
+                <StartCondition>
+
+                  <PrevAction />
+
+                </StartCondition>
+
+                <Batch>
+
+                  <Count>1</Count>
+
+                  <Interval>30</Interval>
+
+                </Batch>
+
+              </RampDownAll>
+
+            </DynamicScheduling>
+
+          </Scheduling>
+
+        </Global>
+
+        <Groups>
+
+          <InitAllBeforeStart>false</InitAllBeforeStart>
+
+          <GroupScheduler>
+
+            <GroupName>creat_new_folder</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>15</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>300</RunFor>
+
+                </Duration>
+
+                <RampDownAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>30</Interval>
+
+                  </Batch>
+
+                </RampDownAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>send_new_message</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>15</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>300</RunFor>
+
+                </Duration>
+
+                <RampDownAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>30</Interval>
+
+                  </Batch>
+
+                </RampDownAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+          <GroupScheduler>
+
+            <GroupName>clear</GroupName>
+
+            <StartupMode>
+
+              <StartAtScenarioBegining />
+
+            </StartupMode>
+
+            <Scheduling>
+
+              <IsDefaultScheduler>true</IsDefaultScheduler>
+
+              <DynamicScheduling>
+
+                <RampUp>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>15</Interval>
+
+                  </Batch>
+
+                  <TotalVusersNumber>1</TotalVusersNumber>
+
+                </RampUp>
+
+                <Duration>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <RunFor>300</RunFor>
+
+                </Duration>
+
+                <RampDownAll>
+
+                  <StartCondition>
+
+                    <PrevAction />
+
+                  </StartCondition>
+
+                  <Batch>
+
+                    <Count>1</Count>
+
+                    <Interval>30</Interval>
+
+                  </Batch>
+
+                </RampDownAll>
+
+              </DynamicScheduling>
+
+            </Scheduling>
+
+          </GroupScheduler>
+
+        </Groups>
+
+      </Manual>
+
+    </Scheduler>
+
+  </Schedulers>
+
 </LoadTest>
 }
 
