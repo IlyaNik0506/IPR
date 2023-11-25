@@ -46,12 +46,12 @@ Action()
         lr_save_string(lr_eval_string(lr_paramarr_idx("population", i)), "Param_population");
         lr_save_string(lr_eval_string(lr_paramarr_idx("area", i)), "Param_area");
 
-        lr_output_message("Страна: %s, Столица: %s, Население: %s человек, Площадь: %s км2",
-            lr_eval_string("{Param_country_name}"),
-            lr_eval_string("{Param_capital}"),
-            lr_eval_string("{Param_population}"),
-            lr_eval_string("{Param_area}")
-        );
+        //lr_output_message("Г‘ГІГ°Г Г­Г : %s, Г‘ГІГ®Г«ГЁГ¶Г : %s, ГЌГ Г±ГҐГ«ГҐГ­ГЁГҐ: %s Г·ГҐГ«Г®ГўГҐГЄ, ГЏГ«Г®Г№Г Г¤Гј: %s ГЄГ¬2",
+           // lr_eval_string("{Param_country_name}"),
+           // lr_eval_string("{Param_capital}"),
+           // lr_eval_string("{Param_population}"),
+           // lr_eval_string("{Param_area}")
+        //);
     }
 
     return 0;
